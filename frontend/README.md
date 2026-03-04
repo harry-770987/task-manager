@@ -4,12 +4,12 @@ A modern React application for managing tasks with authentication, filtering, an
 
 ## Features
 
-- **User Authentication**: Register, login, and logout with JWT tokens
-- **Task Management**: Create, read, update, and delete tasks
-- **Task Filtering**: Filter by status, priority, and search by title/description
-- **Dashboard**: View task statistics and completion rates
-- **Responsive Design**: Mobile-friendly interface
-- **Real-time Updates**: Toast notifications for user feedback
+- User Authentication: Register, login, and logout with JWT tokens
+- Task Management: Create, read, update, and delete tasks
+- Task Filtering: Filter by status, priority, and search by title/description
+- Dashboard: View task statistics and completion rates
+- Responsive Design: Mobile-friendly interface
+- Real-time Updates: Toast notifications for user feedback
 
 ## Tech Stack
 
@@ -88,9 +88,9 @@ src/
 
 The frontend communicates with the backend through the following endpoints:
 
-- **Authentication**: `/api/auth/register`, `/api/auth/login`, `/api/auth/me`
-- **Tasks**: `/api/tasks` (GET, POST), `/api/tasks/:id` (GET, PUT, DELETE)
-- **Statistics**: `/api/tasks/stats`
+- Authentication: `/api/auth/register`, `/api/auth/login`, `/api/auth/me`
+- Tasks: `/api/tasks` (GET, POST), `/api/tasks/:id` (GET, PUT, DELETE)
+- Statistics: `/api/tasks/stats`
 
 ## Features in Detail
 
